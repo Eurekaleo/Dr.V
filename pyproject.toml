@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drv-agent"
+version = "0.1.0"
+description = "Paper-faithful Dr.V-Agent orchestration layer for diagnosing video hallucination."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Meng Luo et al. / repository refactor by Codex"}]
+
+[project.scripts]
+drv-agent = "drv_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["drv_agent*"]

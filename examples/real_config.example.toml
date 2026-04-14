@@ -1,0 +1,81 @@
+[run]
+workspace_root = "."
+mode = "real"
+device = "cuda"
+frame_interval = 8
+max_frames = 128
+strict_cross_validation = false
+
+[classifier]
+backend = "openai_compatible"
+model = "gpt-4o"
+api_key_env = "OPENAI_API_KEY"
+temperature = 0.1
+
+[reasoner]
+backend = "openai_compatible"
+model = "<deepseek-r1-compatible-model-id>"
+api_key_env = "DEEPSEEK_API_KEY"
+base_url = "https://api.deepseek.com"
+temperature = 0.1
+
+[feedback]
+backend = "openai_compatible"
+model = "gpt-4o"
+api_key_env = "OPENAI_API_KEY"
+temperature = 0.2
+
+[perceptive.grounded_sam2]
+enabled = true
+repo_root = "Grounded-SAM-2"
+dino_config = "grounding_dino/groundingdino/config/GroundingDINO_SwinT_OGC.py"
+dino_checkpoint = "gdino_checkpoints/groundingdino_swint_ogc.pth"
+sam2_config = "sam2/configs/sam2.1/sam2.1_hiera_l.yaml"
+sam2_checkpoint = "checkpoints/sam2.1_hiera_large.pt"
+device = "cuda"
+box_threshold = 0.35
+text_threshold = 0.25
+
+[perceptive.yolo_world]
+enabled = true
+weight_path = "weights/yolo_world.pt"
+device = "cuda"
+confidence_threshold = 0.1
+image_size = 640
+
+[temporal.cgstvg]
+enabled = false
+name = "cg_stvg"
+working_dir = "."
+command = "python3 scripts/cgstvg_runner.py --video {video_path} --event {event_name} --repo-root CGSTVG --config-file CGSTVG/experiments/hcstvg.yaml --checkpoint <cgstvg-checkpoint> --device cuda --test-mode"
+
+[temporal.grounded_videollm]
+enabled = true
+repo_root = "Grounded-Video-LLM"
+python_bin = "python3"
+script_path = "inference.py"
+device = "cuda:0"
+llm = "phi3.5"
+stage = "sft"
+attn_implementation = "eager"
+num_frames = 96
+num_segs = 12
+num_temporal_tokens = 300
+max_new_tokens = 256
+config_path = "<hf-or-local-config-path>"
+tokenizer_path = "<hf-or-local-tokenizer-path>"
+pretrained_video_path = "<internvideo-weights>"
+pretrained_vision_proj_llm_path = "<vision-projector-dir>"
+ckpt_path = "<grounded-videollm-checkpoint>"
+
+[cognitive.internvl2]
+enabled = false
+name = "internvl2"
+working_dir = "."
+command = "python3 scripts/internvl2_caption_runner.py --video {video_path} --start {start} --end {end} --claim {claim_json} --event {event_name} --model-path <internvl2-model-path> --device cuda --num-segments 8 --max-new-tokens 256"
+
+[cognitive.qwen2vl]
+enabled = false
+name = "qwen2vl"
+working_dir = "."
+command = "python3 scripts/qwen2vl_caption_runner.py --video {video_path} --start {start} --end {end} --claim {claim_json} --event {event_name} --model-path <qwen2vl-model-path> --device cuda --num-segments 8 --max-new-tokens 256"

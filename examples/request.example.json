@@ -1,0 +1,13 @@
+{
+  "task_id": "example-001",
+  "video_path": "examples/demo.mp4",
+  "task_format": "multiple_choice",
+  "question": "Why did the baby walk towards the bookshelf?",
+  "options": [
+    "A. to pick up a music player",
+    "B. to play with man",
+    "C. to find a toy",
+    "D. to pick up a book"
+  ],
+  "lvm_answer": "B. to play with man"
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+weights/
+outputs/
+logs/
+
+Grounded-SAM-2/checkpoints/*
+!Grounded-SAM-2/checkpoints/.gitkeep
+Grounded-SAM-2/gdino_checkpoints/*
+!Grounded-SAM-2/gdino_checkpoints/.gitkeep
