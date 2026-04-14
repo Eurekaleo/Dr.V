@@ -1,10 +1,14 @@
 # Dr.V-Bench 
 
-Implementation-oriented public release for the paper:
+This repository provides an implementation-oriented public release for the paper:
 
-`Dr.V: A Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-grained Spatial-Temporal Grounding`
+"Dr.V: A Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-grained Spatial-Temporal Grounding"
 
-This repository exposes the `Dr.V-Agent` diagnosis pipeline as a runnable Python package and keeps only the code paths needed for the paper workflow.
+It includes the Dr.V-Agent diagnosis pipeline as a runnable Python package and retains only the components necessary for reproducing the paper’s workflow.
+
+The dataset is available at:
+https://huggingface.co/datasets/Eureka-Leo/Dr.V-Bench
+
 
 ## Method
 
@@ -97,6 +101,6 @@ The output report contains:
 
 ## Notes
 
-- The vendored third-party directories were reduced to the runtime subset needed by this release.
-- Weight files are intentionally not included.
-- Exact experiment reproduction still depends on supplying the same checkpoints and service endpoints used in your environment.
+- Third-party dependencies included in this repository have been reduced to the minimal subset required for runtime.
+- Model weights are intentionally not included.
+- Exact reproduction of experiments requires access to the same checkpoints and service endpoints used in the original environment.
