@@ -1,8 +1,53 @@
 # Dr.V-Bench 
 
+<p align="center">
+  <strong><a href="https://link.springer.com/article/10.1007/s11263-026-02831-1">Dr.V: A Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-Grained Spatial-Temporal Grounding</a></strong>
+</p>
+
+<p align="center">
+  <strong>International Journal of Computer Vision (IJCV), 2026</strong>
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Luo%2C+M"><strong>Meng Luo</strong></a><sup>1</sup>,
+  <a href="https://sqwu.top/"><strong>Shengqiong Wu</strong></a><sup>1</sup>,
+  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jing%2C+L"><strong>Liqiang Jing</strong></a><sup>2</sup>,
+  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ju%2C+T"><strong>Tianjie Ju</strong></a><sup>1</sup>,
+  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zheng%2C+L"><strong>Li Zheng</strong></a><sup>3</sup>,
+  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lai%2C+J"><strong>Jinxiang Lai</strong></a><sup>4</sup>,
+  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wu%2C+T"><strong>Tianlong Wu</strong></a><sup>1</sup>,
+  <a href="https://xinyadu.github.io/"><strong>Xinya Du</strong></a><sup>2</sup>,
+  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li%2C+J"><strong>Jian Li</strong></a><sup>5</sup>,
+  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yan%2C+S"><strong>Siyuan Yan</strong></a><sup>6</sup>,
+  <a href="https://www.cs.rochester.edu/u/jluo/"><strong>Jiebo Luo</strong></a><sup>7</sup>,
+  <a href="https://sites.cs.ucsb.edu/~william/"><strong>William Yang Wang</strong></a><sup>8</sup>,
+  <a href="http://haofei.vip/"><strong>Hao Fei</strong></a><sup>1</sup>,
+  <a href="https://www.comp.nus.edu.sg/~leeml/"><strong>Mong-Li Lee</strong></a><sup>1</sup>,
+  <a href="https://www.comp.nus.edu.sg/~whsu/"><strong>Wynne Hsu</strong></a><sup>1</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>NUS &nbsp;
+  <sup>2</sup>UTD &nbsp;
+  <sup>3</sup>WHU &nbsp;
+  <sup>4</sup>HKUST &nbsp;
+  <sup>5</sup>NJU &nbsp;
+  <sup>6</sup>Monash &nbsp;
+  <sup>7</sup>UR &nbsp;
+  <sup>8</sup>UCSB
+</p>
+
+<p align="center">
+  <a href="https://link.springer.com/article/10.1007/s11263-026-02831-1"><img src="https://img.shields.io/badge/Paper-Springer-blue" alt="Paper"></a>
+  <a href="https://doi.org/10.1007/s11263-026-02831-1"><img src="https://img.shields.io/badge/DOI-10.1007%2Fs11263--026--02831--1-blue" alt="DOI"></a>
+  <a href="https://arxiv.org/abs/2509.11866"><img src="https://img.shields.io/badge/arXiv-2509.11866-orange" alt="arXiv"></a>
+  <a href="https://arxiv.org/pdf/2509.11866"><img src="https://img.shields.io/badge/PDF-arXiv-red" alt="PDF"></a>
+  <a href="https://huggingface.co/datasets/Eureka-Leo/Dr.V-Bench"><img src="https://img.shields.io/badge/Dataset-Hugging%20Face-yellow" alt="Dataset"></a>
+</p>
+
 This repository provides an implementation-oriented public release for the paper:
 
-"Dr.V: A Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-grained Spatial-Temporal Grounding"
+"Dr.V: A Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-Grained Spatial-Temporal Grounding"
 
 It includes the Dr.V-Agent diagnosis pipeline as a runnable Python package and retains only the components necessary for reproducing the paper’s workflow.
 
