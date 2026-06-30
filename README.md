@@ -9,21 +9,21 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Luo%2C+M"><strong>Meng Luo</strong></a><sup>1</sup>,
+  <a href="https://eurekaleo.github.io/"><strong>Meng Luo</strong></a><sup>1</sup>,
   <a href="https://sqwu.top/"><strong>Shengqiong Wu</strong></a><sup>1</sup>,
-  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jing%2C+L"><strong>Liqiang Jing</strong></a><sup>2</sup>,
-  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ju%2C+T"><strong>Tianjie Ju</strong></a><sup>1</sup>,
-  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zheng%2C+L"><strong>Li Zheng</strong></a><sup>3</sup>,
-  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lai%2C+J"><strong>Jinxiang Lai</strong></a><sup>4</sup>,
-  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wu%2C+T"><strong>Tianlong Wu</strong></a><sup>1</sup>,
+  <a href="https://liqiangjing.github.io/"><strong>Liqiang Jing</strong></a><sup>2</sup>,
+  <strong>Tianjie Ju</strong><sup>1</sup>,
+  <a href="https://zhengli-whu.github.io/"><strong>Li Zheng</strong></a><sup>3</sup>,
+  <strong>Jinxiang Lai</strong><sup>4</sup>,
+  <strong>Tianlong Wu</strong><sup>1</sup>,
   <a href="https://xinyadu.github.io/"><strong>Xinya Du</strong></a><sup>2</sup>,
-  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li%2C+J"><strong>Jian Li</strong></a><sup>5</sup>,
-  <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yan%2C+S"><strong>Siyuan Yan</strong></a><sup>6</sup>,
+  <strong>Jian Li</strong><sup>5</sup>,
+  <strong>Siyuan Yan</strong><sup>6</sup>,
   <a href="https://www.cs.rochester.edu/u/jluo/"><strong>Jiebo Luo</strong></a><sup>7</sup>,
   <a href="https://sites.cs.ucsb.edu/~william/"><strong>William Yang Wang</strong></a><sup>8</sup>,
-  <a href="http://haofei.vip/"><strong>Hao Fei</strong></a><sup>1</sup>,
-  <a href="https://www.comp.nus.edu.sg/~leeml/"><strong>Mong-Li Lee</strong></a><sup>1</sup>,
-  <a href="https://www.comp.nus.edu.sg/~whsu/"><strong>Wynne Hsu</strong></a><sup>1</sup>
+  <a href="https://haofei.vip/"><strong>Hao Fei</strong></a><sup>1</sup>,
+  <a href="https://www.comp.nus.edu.sg/cs/people/leeml/"><strong>Mong-Li Lee</strong></a><sup>1</sup>,
+  <a href="https://www.comp.nus.edu.sg/cs/people/whsu/"><strong>Wynne Hsu</strong></a><sup>1</sup>
 </p>
 
 <p align="center">
